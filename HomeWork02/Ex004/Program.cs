@@ -25,3 +25,15 @@ int number7 = Convert.ToInt32(Console.ReadLine());
 int SrArf = (number1 +  number2 + number3 + number4 + number5 + number6 + number7)/7;
 
 Console.WriteLine("Среднее арифметическое этих чисел равно " + SrArf);
+
+//Console.WriteLine("Введите планируемое количество чисел:");
+//int count = int.Parse(Console.ReadLine());
+//int sum = 0;
+//for (int i = 0; i < count; i++)
+//{
+//Console.WriteLine($"Введите {i + 1}-ое число:");
+//int number = int.Parse(Console.ReadLine());
+//sum = sum + number;
+//}
+//float average = sum / count;
+//Console.WriteLine(average);
